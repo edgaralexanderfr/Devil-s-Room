@@ -1,0 +1,1241 @@
+fileFormatVersion: 2
+guid: 70716c0271000e94a8cba3a0a3d75c95
+timeCreated: 1479861746
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Adam
+    100004: Armature
+    100006: Down camera
+    100008: Down left camera
+    100010: Down right camera
+    100012: Foot.L
+    100014: Foot.L_end
+    100016: Foot.R
+    100018: Foot.R_end
+    100020: Hair 1
+    100022: Hand.L
+    100024: Hand.L_end
+    100026: Hand.R
+    100028: Hand.R_end
+    100030: Head
+    100032: Head_end
+    100034: Hip
+    100036: Left camera
+    100038: Lower Arm.L
+    100040: Lower Arm.R
+    100042: Lower Leg.L
+    100044: Lower Leg.R
+    100046: Pants 1
+    100048: Right camera
+    100050: Shirt 1
+    100052: Shoes 1
+    100054: Spine
+    100056: Up camera
+    100058: Up left camera
+    100060: Up right camera
+    100062: Upper Arm.L
+    100064: Upper Arm.R
+    100066: Upper Leg.L
+    100068: Upper Leg.R
+    400000: Adam
+    400002: //RootNode
+    400004: Armature
+    400006: Down camera
+    400008: Down left camera
+    400010: Down right camera
+    400012: Foot.L
+    400014: Foot.L_end
+    400016: Foot.R
+    400018: Foot.R_end
+    400020: Hair 1
+    400022: Hand.L
+    400024: Hand.L_end
+    400026: Hand.R
+    400028: Hand.R_end
+    400030: Head
+    400032: Head_end
+    400034: Hip
+    400036: Left camera
+    400038: Lower Arm.L
+    400040: Lower Arm.R
+    400042: Lower Leg.L
+    400044: Lower Leg.R
+    400046: Pants 1
+    400048: Right camera
+    400050: Shirt 1
+    400052: Shoes 1
+    400054: Spine
+    400056: Up camera
+    400058: Up left camera
+    400060: Up right camera
+    400062: Upper Arm.L
+    400064: Upper Arm.R
+    400066: Upper Leg.L
+    400068: Upper Leg.R
+    4300000: Adam
+    4300002: Shirt 1
+    4300004: Hair 1
+    4300006: Pants 1
+    4300008: Shoes 1
+    7400000: Up right camera|Crouch
+    7400002: Down right camera|SThink
+    7400004: Down camera|Idle
+    7400006: Crouch
+    7400008: Idle
+    7400010: Run
+    7400012: StartCrouch
+    7400014: SThink
+    7400016: StopCrouch
+    7400018: Think
+    7400020: Walk
+    9500000: //RootNode
+    13700000: Adam
+    13700002: Hair 1
+    13700004: Pants 1
+    13700006: Shirt 1
+    13700008: Shoes 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Up right camera|Crouch
+      takeName: Up right camera|Crouch
+      firstFrame: 0
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Adam
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hip
+        weight: 1
+      - path: Armature/Hip/Spine
+        weight: 1
+      - path: Armature/Hip/Spine/Head
+        weight: 1
+      - path: Armature/Hip/Spine/Head/Head_end
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L/Hand.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R/Hand.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R/Foot.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Down camera
+        weight: 1
+      - path: Down left camera
+        weight: 1
+      - path: Down right camera
+        weight: 1
+      - path: Hair 1
+        weight: 1
+      - path: Left camera
+        weight: 1
+      - path: Pants 1
+        weight: 1
+      - path: Right camera
+        weight: 1
+      - path: Shirt 1
+        weight: 1
+      - path: Shoes 1
+        weight: 1
+      - path: Up camera
+        weight: 1
+      - path: Up left camera
+        weight: 1
+      - path: Up right camera
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Down right camera|SThink
+      takeName: Down right camera|SThink
+      firstFrame: 0
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Adam
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hip
+        weight: 1
+      - path: Armature/Hip/Spine
+        weight: 1
+      - path: Armature/Hip/Spine/Head
+        weight: 1
+      - path: Armature/Hip/Spine/Head/Head_end
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L/Hand.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R/Hand.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R/Foot.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Down camera
+        weight: 1
+      - path: Down left camera
+        weight: 1
+      - path: Down right camera
+        weight: 1
+      - path: Hair 1
+        weight: 1
+      - path: Left camera
+        weight: 1
+      - path: Pants 1
+        weight: 1
+      - path: Right camera
+        weight: 1
+      - path: Shirt 1
+        weight: 1
+      - path: Shoes 1
+        weight: 1
+      - path: Up camera
+        weight: 1
+      - path: Up left camera
+        weight: 1
+      - path: Up right camera
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Down camera|Idle
+      takeName: Down camera|Idle
+      firstFrame: 0
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Adam
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hip
+        weight: 1
+      - path: Armature/Hip/Spine
+        weight: 1
+      - path: Armature/Hip/Spine/Head
+        weight: 1
+      - path: Armature/Hip/Spine/Head/Head_end
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L/Hand.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R/Hand.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R/Foot.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Down camera
+        weight: 1
+      - path: Down left camera
+        weight: 1
+      - path: Down right camera
+        weight: 1
+      - path: Hair 1
+        weight: 1
+      - path: Left camera
+        weight: 1
+      - path: Pants 1
+        weight: 1
+      - path: Right camera
+        weight: 1
+      - path: Shirt 1
+        weight: 1
+      - path: Shoes 1
+        weight: 1
+      - path: Up camera
+        weight: 1
+      - path: Up left camera
+        weight: 1
+      - path: Up right camera
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Crouch
+      takeName: Armature|Crouch
+      firstFrame: 0
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Adam
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hip
+        weight: 1
+      - path: Armature/Hip/Spine
+        weight: 1
+      - path: Armature/Hip/Spine/Head
+        weight: 1
+      - path: Armature/Hip/Spine/Head/Head_end
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L/Hand.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R/Hand.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R/Foot.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Down camera
+        weight: 1
+      - path: Down left camera
+        weight: 1
+      - path: Down right camera
+        weight: 1
+      - path: Hair 1
+        weight: 1
+      - path: Left camera
+        weight: 1
+      - path: Pants 1
+        weight: 1
+      - path: Right camera
+        weight: 1
+      - path: Shirt 1
+        weight: 1
+      - path: Shoes 1
+        weight: 1
+      - path: Up camera
+        weight: 1
+      - path: Up left camera
+        weight: 1
+      - path: Up right camera
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Armature|Idle
+      firstFrame: 0
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Adam
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hip
+        weight: 1
+      - path: Armature/Hip/Spine
+        weight: 1
+      - path: Armature/Hip/Spine/Head
+        weight: 1
+      - path: Armature/Hip/Spine/Head/Head_end
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L/Hand.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R/Hand.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R/Foot.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Down camera
+        weight: 1
+      - path: Down left camera
+        weight: 1
+      - path: Down right camera
+        weight: 1
+      - path: Hair 1
+        weight: 1
+      - path: Left camera
+        weight: 1
+      - path: Pants 1
+        weight: 1
+      - path: Right camera
+        weight: 1
+      - path: Shirt 1
+        weight: 1
+      - path: Shoes 1
+        weight: 1
+      - path: Up camera
+        weight: 1
+      - path: Up left camera
+        weight: 1
+      - path: Up right camera
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Armature|Run
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Adam
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hip
+        weight: 1
+      - path: Armature/Hip/Spine
+        weight: 1
+      - path: Armature/Hip/Spine/Head
+        weight: 1
+      - path: Armature/Hip/Spine/Head/Head_end
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L/Hand.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R/Hand.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R/Foot.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Down camera
+        weight: 1
+      - path: Down left camera
+        weight: 1
+      - path: Down right camera
+        weight: 1
+      - path: Hair 1
+        weight: 1
+      - path: Left camera
+        weight: 1
+      - path: Pants 1
+        weight: 1
+      - path: Right camera
+        weight: 1
+      - path: Shirt 1
+        weight: 1
+      - path: Shoes 1
+        weight: 1
+      - path: Up camera
+        weight: 1
+      - path: Up left camera
+        weight: 1
+      - path: Up right camera
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: StartCrouch
+      takeName: Armature|StartCrouch
+      firstFrame: 0
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Adam
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hip
+        weight: 1
+      - path: Armature/Hip/Spine
+        weight: 1
+      - path: Armature/Hip/Spine/Head
+        weight: 1
+      - path: Armature/Hip/Spine/Head/Head_end
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L/Hand.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R/Hand.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R/Foot.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Down camera
+        weight: 1
+      - path: Down left camera
+        weight: 1
+      - path: Down right camera
+        weight: 1
+      - path: Hair 1
+        weight: 1
+      - path: Left camera
+        weight: 1
+      - path: Pants 1
+        weight: 1
+      - path: Right camera
+        weight: 1
+      - path: Shirt 1
+        weight: 1
+      - path: Shoes 1
+        weight: 1
+      - path: Up camera
+        weight: 1
+      - path: Up left camera
+        weight: 1
+      - path: Up right camera
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SThink
+      takeName: Armature|SThink
+      firstFrame: 0
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Adam
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hip
+        weight: 1
+      - path: Armature/Hip/Spine
+        weight: 1
+      - path: Armature/Hip/Spine/Head
+        weight: 1
+      - path: Armature/Hip/Spine/Head/Head_end
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L/Hand.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R/Hand.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R/Foot.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Down camera
+        weight: 1
+      - path: Down left camera
+        weight: 1
+      - path: Down right camera
+        weight: 1
+      - path: Hair 1
+        weight: 1
+      - path: Left camera
+        weight: 1
+      - path: Pants 1
+        weight: 1
+      - path: Right camera
+        weight: 1
+      - path: Shirt 1
+        weight: 1
+      - path: Shoes 1
+        weight: 1
+      - path: Up camera
+        weight: 1
+      - path: Up left camera
+        weight: 1
+      - path: Up right camera
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: StopCrouch
+      takeName: Armature|StopCrouch
+      firstFrame: 0
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Adam
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hip
+        weight: 1
+      - path: Armature/Hip/Spine
+        weight: 1
+      - path: Armature/Hip/Spine/Head
+        weight: 1
+      - path: Armature/Hip/Spine/Head/Head_end
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L/Hand.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R/Hand.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R/Foot.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Down camera
+        weight: 1
+      - path: Down left camera
+        weight: 1
+      - path: Down right camera
+        weight: 1
+      - path: Hair 1
+        weight: 1
+      - path: Left camera
+        weight: 1
+      - path: Pants 1
+        weight: 1
+      - path: Right camera
+        weight: 1
+      - path: Shirt 1
+        weight: 1
+      - path: Shoes 1
+        weight: 1
+      - path: Up camera
+        weight: 1
+      - path: Up left camera
+        weight: 1
+      - path: Up right camera
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Think
+      takeName: Armature|Think
+      firstFrame: 0
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Adam
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hip
+        weight: 1
+      - path: Armature/Hip/Spine
+        weight: 1
+      - path: Armature/Hip/Spine/Head
+        weight: 1
+      - path: Armature/Hip/Spine/Head/Head_end
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L/Hand.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R/Hand.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R/Foot.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Down camera
+        weight: 1
+      - path: Down left camera
+        weight: 1
+      - path: Down right camera
+        weight: 1
+      - path: Hair 1
+        weight: 1
+      - path: Left camera
+        weight: 1
+      - path: Pants 1
+        weight: 1
+      - path: Right camera
+        weight: 1
+      - path: Shirt 1
+        weight: 1
+      - path: Shoes 1
+        weight: 1
+      - path: Up camera
+        weight: 1
+      - path: Up left camera
+        weight: 1
+      - path: Up right camera
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Armature|Walk
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Adam
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hip
+        weight: 1
+      - path: Armature/Hip/Spine
+        weight: 1
+      - path: Armature/Hip/Spine/Head
+        weight: 1
+      - path: Armature/Hip/Spine/Head/Head_end
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L/Hand.L
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.L/Lower Arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R/Hand.R
+        weight: 1
+      - path: Armature/Hip/Spine/Upper Arm.R/Lower Arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Hip/Upper Leg.L/Lower Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R/Foot.R
+        weight: 1
+      - path: Armature/Hip/Upper Leg.R/Lower Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Down camera
+        weight: 1
+      - path: Down left camera
+        weight: 1
+      - path: Down right camera
+        weight: 1
+      - path: Hair 1
+        weight: 1
+      - path: Left camera
+        weight: 1
+      - path: Pants 1
+        weight: 1
+      - path: Right camera
+        weight: 1
+      - path: Shirt 1
+        weight: 1
+      - path: Shoes 1
+        weight: 1
+      - path: Up camera
+        weight: 1
+      - path: Up left camera
+        weight: 1
+      - path: Up right camera
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
